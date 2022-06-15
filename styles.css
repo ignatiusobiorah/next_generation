@@ -22,7 +22,7 @@ a{
     width: 1200px;
     max-width: 100%;
     margin: 0 auto;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 /* nav bar styling */
@@ -178,7 +178,7 @@ nav{
   }
 
   .content5 {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     align-items: center;
     justify-content: space-evenly;
