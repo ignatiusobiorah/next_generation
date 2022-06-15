@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@600;700&family=Roboto:wght@100;300;400;500;700&display=swap');
+--root{
+    font-family: 'Red Hat Display', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+    margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+
+.container {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+    border: 2px solid red;
+}
+
+/* nav bar styling */
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #ffffff;
+  padding: 1rem;
+}
+
+.nav-list{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2.5rem;
+  color: #000000;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+.nav-list >li{
+  gap: 1rem;
+}
+
+.nav-list > li > a{
+  color: #000000;
+  margin-left: 1rem;
+}
+
+
+.nav-list>li>a:hover{
+  color:#1B8036;
+ 
+}
+
+.navbtn > button{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: #ffffff;
+  background: #1B8036;
+  font-size: 1.2rem;
+  border: none;
+  outline: none;
+  padding: 0.5rem 1.2rem;
+  border-radius: 50px;
+}
+/* nav bar ends */
+ 
+  .top-left {
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   text-align: center;
+   padding-top: 4rem;
+  }
+
+  .content1 > h1{
+    font-family: 'Red Hat Display', sans-serif;
+    color: #1B8036;
+    padding: 20px;
+    font-size: 4rem;
+    font-weight: 700;
+  }
+
+  .content1 > p {
+    padding: 20px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+  }
+
+  .contentButton > button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #ffffff;
+    background: #1B8036;
+    font-size: 1.2rem;
+    border: none;
+    outline: none;
+    padding: 0.5rem 1.2rem;
+    border-radius: 50px;
+  }
+
+  .contentButton {
+    margin-left: 15px;
+  }
+
+  .bottom-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 4rem 0;
+  }
+
+  .content2 > p {
+    padding-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 2rem;
+  }
+
+  .content2 > h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+  }
+
+  #picture {
+    width: 30%;
+    height: 20%;
+    padding-bottom: 50px;
+  }
+
+  .content3 > ul {
+    color: #c4c4c4;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-align: left;
+    padding: 0.5rem;
+  }
+
+  .content3 > h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+  }
+
+  .content3 > p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    padding: 0.5rem;
+    line-height: 2rem;
+  }
+
+  .content3 {
+    margin-left: 70px;
+    text-align: center;
+  }
+
+
+  .bottom_right1 {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .content4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 4rem;
+  }
+
+  .content5 {
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 4rem 0;
+  }
+
+  .our_products > h2 {
+    text-align: center;
+    padding: 4rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    color: #137212;
+  }
+
+  .right_content4 > h2 {
+    padding: 2rem 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    color: #1b1b1b;
+  }
+
+  .right_content4 > h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: #0c0c0c;
+  }
+
+  .right_content4 > p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 2rem;
+    color: #7c7c7c;
+    padding: 2rem 0 0.1rem 0 ;
+  }
+
+  .demo_button > button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #ffffff;
+    background: #1B8036;
+    font-size: 1.2rem;
+    border: none;
+    outline: none;
+    padding: 0.5rem 1.2rem;
+    border-radius: 50px;
+  }
+
+  .demo_button {
+    padding-top: 2rem;
+  }
+
+hr {
+  width: 80%;
+  margin: auto;
+}
+
